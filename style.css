@@ -1,0 +1,94 @@
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-areas: 
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+    grid-row-gap: 75px;
+    grid-column-gap: 50px;
+    height: 100vh;
+    } 
+    
+.header {
+    grid-area: header;
+    }
+      
+.sidebar{
+    grid-area: sidebar;
+    }
+    
+.main{
+    grid-area: content;
+    }
+.footer{
+    grid-area: footer;
+    height: 200px;
+    }
+
+
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+  }
+  
+  li a:hover {
+    background-color: #000;
+    color: yellow;
+  }
+
+  /* Images */
+.main-img {
+    width: 50%;
+    }
+
+/* Fonts and stuff */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+/* button */
+.button-st {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {background-color: #008CBA;} /* Blue */
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <title>Semantic HTML Demo | Divs </title>
+</head>
+<body>
+    <div class="container">
+    <!--START OF HEADER-->
+    <div class="header">
+        <h1>Basic Site</h1>
+        <!--START OF NAVIGATION-->
+        <div>
+            <ul>
+                <li><a href="demo.html">HTML5 Version</a></li>
+                <li><a href="https://example.com">Link Two</a></li>
+                <li><a href="https://example.com">Link Three</a></li>
+            </ul>
+        </div>
+        <!--END OF NAVIGATION-->
+    </div>
+    <!--END OF HEADER-->
+    <!--START OF MAIN-->
+    <div id="maincontent" class="content">
+        <div>
+            <!--START OF ARTICLE-->
+            <div>
+                <h2>13 Best Practices for Remote Workers in the Jeff Goldblum Industry</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis vulputate enim nulla aliquet porttitor. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Nibh praesent tristique magna sit amet purus gravida quis blandit. Nisi porta lorem mollis aliquam ut porttitor leo a. In pellentesque massa placerat duis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Lectus urna duis convallis convallis tellus. A lacus vestibulum sed arcu. Egestas congue quisque egestas diam in. Accumsan lacus vel facilisis volutpat est. Non consectetur a erat nam at lectus urna. Libero nunc consequat interdum varius sit amet mattis. Dictumst vestibulum rhoncus est pellentesque elit. Non enim praesent elementum facilisis leo.</p>
+
+                <img class="main-img" src="Jeff-Goldblum.jpeg" alt="Jeff Goldblum recreates his famous 'Jurassic Park' pose">
+
+                <p>Suscipit tellus mauris a diam maecenas sed enim. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. At tellus at urna condimentum mattis pellentesque id nibh tortor. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Orci ac auctor augue mauris augue neque gravida. Adipiscing elit duis tristique sollicitudin nibh. Quis commodo odio aenean sed adipiscing. Nisi lacus sed viverra tellus in hac. Malesuada proin libero nunc consequat. Sed nisi lacus sed viverra tellus in. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Aenean pharetra magna ac placerat vestibulum lectus. Ultrices tincidunt arcu non sodales.</p>
+            </div>
+            <!--END OF ARTICLE-->
+        </div>
+        <hr />
+        <!--START OF FORM-->
+        <div>
+            <div>
+                <div>First Name:</div>
+                    <input name="first-name">
+                  <div>Last Name:</div>
+                    <input name="last-name">
+                  <div>Enter your email: </div>
+                    <input type="email" name="email" id="email">  <br />
+                <div id="button" onclick="myFunction()" class="button-st">SUBMIT</div>
+            </div>
+        </div>
+        <!--END OF FORM-->
+    </div>
+    <!--END OF MAIN-->
+    <!--START OF SIDEBAR-->
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus urna neque viverra justo nec. Aliquet porttitor lacus luctus accumsan tortor posuere. Elit ullamcorper dignissim cras tincidunt. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Dolor sed viverra ipsum nunc aliquet. Malesuada fames ac turpis egestas maecenas pharetra convallis. At tellus at urna condimentum mattis pellentesque id nibh. Eu turpis egestas pretium aenean. Urna et pharetra pharetra massa massa ultricies. Bibendum enim facilisis gravida neque convallis a. Arcu felis bibendum ut tristique et egestas quis ipsum. Arcu vitae elementum curabitur vitae nunc. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Odio facilisis mauris sit amet massa vitae tortor condimentum. A cras semper auctor neque. Aliquam sem et tortor consequat.</p>
+    </div>
+    <!--END OF SIDEBAR-->
+    <!--START OF FOOTER-->
+    <div class="footer">
+        <h2>Footer</h2>
+        <!--START OF FOOTER NAVIGATION-->
+        <div>
+            <ul>
+                <li><a href="https://example.com">Link Four</a></li>
+                <li><a href="https://example.com">Link Five</a></li>
+                <li><a href="https://example.com">Link Six</a></li>
+            </ul>
+        </div>
+        <!--END OF FOOTER NAVIGATION-->
+        <p>&copy; Copyright 2021, Copywritten, so don't copy me</p>
+    </div>
+    <!--END OF FOOTER-->
+</div>
+<!--START OF BUTTON JS-->
+<script>
+    document.getElementById("button").addEventListener("click", myFunction);
+    
+    function myFunction() {
+      document.getElementById("button").innerHTML = "BUTTON STUFF!";
+    }
+    </script>
+<!--END OF BUTTON JS-->
+</body>
+</html>
